@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="https://fonts.googleleapis.com/css?family=Lato:300,400,700,900" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+
+<body style="background-color:rgb(0, 0, 0);">
+    <header class="site-header inicio">
+        <div class="contenedor">
+            <div class="barra">
+               <a href="/">           
+                 <img src="img/encuentra.jpg" alt="Logotipo ">  
+               </a>
+   
+                  <nav class="navegacion">
+                    <a href="index.html">inicio</a>
+                    <a href="Nosotros.html">Quienes Somos</a>
+                    <a href="Cursos.html">Cursos</a>
+                    <a href="Contacto.html">Contacto</a>
+                  </nav>
+            </div>
+         </div>
+       
+    </header> 
+   
+    
+
+    <h1 class="fw-300 centrar-texto">Agenda Una Cita con Nosotros</h1>
+    <div class="imagen-contacto">
+    <img src="img/contacto.jpg" alt="Imagen Principal">
+    </div>
+    <main class="contenedor seccion contenido-centrado">
+        <h2 class="fw-300 centarr-texto">Llenar Formulario De Contacto</h2>
+
+        <form class="contacto" action="">
+            <fieldset>
+                <legend>Informacion Personal</legend>
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre" placeholder=" Tu Nombre">
+
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" placeholder=" Tu Correo Electronico" required>
+
+                <label for="telefono">Telefono: </label>
+                <input type="tel" id="telefono" placeholder=" Tu Telefono" required>
+
+                
+            </fieldset>
+
+            <fieldset>
+                <legend>En cual de nuestros cursos esta Interesado</legend>
+                <label for="opciones">Cursos Disponibles</label>
+                <select id="opciones">
+                    <option value="" disabled selected>--Seleccione--</option>
+                    <option value="Canto">Canto</option>
+                    <option value="Piano">Piano</option>
+                    <option value="Guitarra">Guitarra clasica</option>
+                    <option value="Violin">Violin</option>
+                    <option value="Flauta">Flauta</option>
+                    <option value="Musica">Musica</option>
+                    <option value="Orquestal">Orquestal</option>
+                </select>
+                <label for="nivel">En que nivel te gustaria estar</label>
+                <select id="opciones">
+                    <option value="" disabled selected>--Seleccione--</option>
+                    <option value="Principiante">Principiante</option>
+                    <option value="Intermedio">Intermedio</option>
+                    <option value="Avanzado">Avanzado</option>
+                   
+                </select>
+            </fieldset> 
+            <fieldset>
+                <legend>Contacto</legend>
+                <p>Como desea ser Contactado: </p>
+                <div class="forma-contacto">
+                    <label for="Telefono">Telefono</label>
+                    <input type="radio" name="contacto" value="telefono" id="Telefono">
+
+                    <label for="correo">E-mail</label>
+                    <input type="radio" name="contacto" value="correo" id="correo">
+                </div>
+                <p>Elija la fecha y la hora que desea Agendar su cita</p>
+                <label for="fecha">Fecha: </label>
+                <input type="date" id="fecha">
+                <label for="hora">Hora: </label>
+                <input type="time" id="hora" min="8:00" max="20:00">
+
+            </fieldset>
+
+            <input type="submit" value="Enviar" class="boton">
+        </form>
+        
+
+
+    </main>
+    <footer class="site-footer seccion">
+        <div>
+       <h4 class="titulo">HORARIOS DE ATENCION</h4>
+        <p class="info">  
+        Lunes-Viernes 7:00am-10:00pm
+        </p>
+        <p class="info">
+            ​Sábado-Domingo 7:00am-8:00pm
+        </p>
+      </div>
+      <div>
+        <h4 class="titulo">DIRECCION Y CONTACTO</h4>
+         <p class="info">  
+            Av. Los Rosales 122 , 27021, Mexico. 	<br>
+           	Telefono : 871-7 899 500<br>
+            Correo: HamelinInstitute@outlook.com
+         </p>
+         
+       </div>
+        <div class="contenedor contenedor-footer">
+           
+            <nav class="navegacion">
+                <a href="index.html">inicio</a>
+                    <a href="Nosotros.html">Quienes Somos</a>
+                    <a href="Cursos.html">Cursos</a>
+                    <a href="Contacto.html">Contacto</a>
+              </nav>
+            <p class="copyright">Todos los Derechos Reservados 2020 &copy;</p>
+        </div>
+    </footer>
+</body>
+
+</html>

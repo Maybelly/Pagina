@@ -1,0 +1,346 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /**Reset para REMS -62.5% = 10px de 16 px**/
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+/**Globales **/
+img{
+ max-width: 100%;
+}
+
+.contenedor {
+    max-width: 120rem; /**= 1200px**/
+    margin: 0 auto;
+}
+
+h1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 5rem;
+}
+
+h2{
+    color: #ffffff;
+    text-align: center;
+    font-size: 3.4rem;
+}
+
+h3{
+    text-align: center;
+    font-size: 3rem;
+    margin-right: 1.5rem;
+    color: #ffffff;
+}
+h4{
+    font-size: 1rem;
+    color: rgb(24, 114, 114);
+    text-align: center;
+    
+}
+
+/*botones*/
+.boton{
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    margin: 3rem;
+    display: block;
+    text-align: center;
+    border: none;
+    background-color: darkblue;
+}
+
+.boton:hover{
+    cursor: pointer;
+}
+
+.boton-volver{
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    margin: 3rem;
+    display: block;
+    text-align: center;
+    border: none;
+    background-color: darkblue;
+    max-width: 60px;
+}
+
+.boton-volver:hover{
+    cursor: pointer;
+}
+
+
+
+/**Utilidades**/
+.seccion{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.centrar-texto{
+    text-align: center;
+}
+
+.contenido-centrado{
+    max-width: 800px;
+}
+
+.fw-300{
+    font-weight: 300;
+}
+
+
+
+/* Header */
+.site-header{
+    background-color: #050505;
+    padding: 1rem 0 3rem 0;
+}
+
+.site-header.inicio {
+    background-color:transparent;
+    background-position: center center;
+    background-size: cover;
+    height: 50px;
+    min-height: 2rem;
+}
+
+.contenido-header{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+}
+
+.barra{
+    display: flex;
+    justify-content: space-evenly;
+    padding: top 30px;
+}
+
+
+/**Navegacion**/
+.navegacion a{
+font-family: cursive;
+color: azure;
+background-color: transparent;
+text-decoration: none;
+font-size: 25px;
+margin-right: 20px;
+}
+
+.navegacion a:hover{
+    color: #756f13;
+}
+
+/**INTERNAS**/
+/*NOSOTROS*/
+.texto-nosotros{
+    color: white;
+    text-align: center;
+}
+
+.texto-nosotros blockquote{
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px yellow;
+    font-family: 'Arial';
+    font-size: 2.5rem;
+}
+
+
+/**Footer**/
+.site-footer{
+    background-color: #0a0a0acb;
+    margin: 0;
+}
+.contenedor-footer{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright{
+    font-size: medium;
+    margin: 0;
+    color: #ffffff;
+}
+.titulo{
+   
+    margin:0;
+    font-size:medium;
+    text-align:center;
+    color:rgb(255, 255, 249);
+}
+.info{
+   
+    margin:0;
+    font-weight: bold;
+    font: size 2rem;;
+   text-align:center;
+    color:rgb(63, 63, 31);
+
+}
+
+
+/*ANUNCIOS*/
+.parrafos{
+    padding-left: 4rem;
+    text-align: center;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.contenedor-anuncio{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.contenido-curso p{
+    text-align: justify;
+    color: #ffffff; 
+}
+
+.resumen-curso{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*CURSOS*/
+.curso{
+    flex-basis: calc(33.3% - 2rem);
+    background-color: rgb(20, 20, 19);
+    border-style: solid;
+    margin-bottom: 1rem;
+
+    border-width: 1px;
+    
+}
+
+.curso-orquestal{
+    display: flex;
+    justify-content: center;
+}
+
+.contenido-anuncio {
+
+    padding: 2rem;
+
+}
+
+.lista{
+    font-family: 'Arial Black';
+}
+
+
+.contenido-anuncio p{
+    margin: 0;
+}
+
+.precio_basico{
+    color: #ff0;
+    font-weight: 700;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.precio_intermedio{
+    color: #0ff;
+    font-weight: 700;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.precio_avanzado{
+    color: #0f0;
+    font-weight: 700;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.ver-todas {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/**CONTACTO**/
+.imagen-contacto{
+    justify-content: center;
+    background-size: cover;
+    height: 40rem;
+    display: flex;
+   
+}
+
+.boton-enviar{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: medium;
+    color: rgb(255, 255, 255);
+    background-color: #434909;
+    padding-bottom: 2rem;
+    padding: 1rem 3rem;
+    text-align: center;
+}
+.contacto p{
+    font-size: 2rem;
+    color: #ffffff;
+    margin: 2rem 0 0 0;
+}
+legend{
+    font-size: 2rem;
+    color: #f8f8f8;
+}
+label{
+    color: #e1e1e1;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+}
+
+input:not([type="submit"]),
+textarea,
+select
+{
+    padding: .5rem;
+    display: block; 
+    width: 100%;
+    background-color: #ffffff;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+input[type="radio"]{
+    width: auto;
+    margin: 0;
+}
+
+select{
+    
+    -webkit-appearance: none;
+    appearance: none;
+}
+textarea{
+    height: 20rem;
+}
+.forma-contacto{
+    max-width: 30rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imagenes-musica{
+    padding-left: 0rem;
+}
